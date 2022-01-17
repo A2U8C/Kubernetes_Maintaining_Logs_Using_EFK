@@ -1,0 +1,13 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: kube-logging-rolebinding
+  namespace: kube-logging
+subjects:
+- kind: User
+  name: kube-logging-user
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: kube-logging-role
+  apiGroup: rbac.authorization.k8s.io

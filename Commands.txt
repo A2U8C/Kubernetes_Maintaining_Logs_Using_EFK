@@ -1,0 +1,17 @@
+1
+kubectl rollout status sts/es-cluster --namespace=kube-logging
+
+2
+kubectl port-forward es-cluster-0 9200:9200 --namespace=kube-logging
+
+3
+kubectl rollout status deployment/kibana --namespace=kube-logging
+
+4
+kubectl get pods --namespace=kube-logging
+
+5
+kubectl port-forward kibana-6c9fb4b5b7-plbg2 5601:5601 --namespace=kube-logging
+
+6
+kubectl get ds --namespace=kube-logging
