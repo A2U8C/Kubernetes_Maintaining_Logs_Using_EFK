@@ -304,7 +304,6 @@ We create a Service Account called fluentd that the Fluentd Pods will use to acc
 <br/>
 
 ### Kibana Dashboard setup:
-<br/>
 ![Kibana_Dashboard_setup](Images/Kibana_Dashboard_setup.jpg)
 <br/>
 
@@ -376,5 +375,6 @@ Logging System for Cloud Computing Forensic Environments - Patrascu, Alecsandru 
 Introduction to Kubernetes - Serjik Dikaleh, Ozair Sheikh, Chris Felix - CASCON '17: Proceedings of the 27th Annual International Conference on Computer Science and Software Engineering - November 2017 - Pages 310
 
 # Patents Referred :
-“Managing Application Log Levels in Cloud Environment” - Vladimir Pavlov, Hristo Kostov, Hristo Iliev, Petar Zhechev, Verzhiniya Noeva - SAP SE - US9569328B2, USA - 29-05-2014.
-“Log Analytics for Problem Diagnosis” - Yaoping Ruan, Byungchul Tak, Shu Tao - International Business Machines Corp - US20160124823A1, USA - 05-05-2016.
+### “Managing Application Log Levels in Cloud Environment” - Vladimir Pavlov, Hristo Kostov, Hristo Iliev, Petar Zhechev, Verzhiniya Noeva - SAP SE - US9569328B2, USA - 29-05-2014.
+
+### “Log Analytics for Problem Diagnosis” - Yaoping Ruan, Byungchul Tak, Shu Tao - International Business Machines Corp - US20160124823A1, USA - 05-05-2016.
