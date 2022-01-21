@@ -211,11 +211,13 @@ Kibana
 
 Fig 2. Block Diagram of the EFK 
 
-Elasticsearch:
+### Elasticsearch:
 Elasticsearch is a highly scalable open-source full-text search and analytics engine. It allows us to store, search, and analyze big volumes of data quickly and in near real time.
-Fluentd:
+
+### Fluentd:
 Fluentd is an open source data collector, which lets us unify the data collection and consumption for a better use and understanding of data. Once deployed it uses Fluentd to aggregate event logs from all nodes, projects, and pods into Elasticsearch (ES).
-Kibana:
+
+### Kibana:
 Kibana is an open source analytics and visualization platform designed to work with Elasticsearch. We can use Kibana to search, view, and interact with data stored in Elasticsearch indices.
 
 # Chapter 4: 
@@ -233,18 +235,18 @@ Elasticsearch: It is a distributed, free and open search and analytics engine fo
 Kibana: Now that we have our logs stored in Elasticsearch, the next step is to display them in Kibana. To do this, we will need to run Kibana in our cluster. Just as with Elasticsearch, we need only one Kibana instance
 
 ## 4.2 Detailed Design 
-Flowchart Diagram: 
+### Flowchart Diagram: 
 ![Flowchart](Images/Flowchart.png)
 <br/>
 Fig 4. Flowchart of Maintaining Logs Using EFK  
 
-Use Case Diagram: 
+### Use Case Diagram: 
 ![Use_Case](Images/Use_Case.png)
 <br/>
 
 Fig 5. Use Case diagram of Maintaining Logs Using EFK 
 
-4.3 Project Scheduling and Tracking using Gantt Chart 
+## 4.3 Project Scheduling and Tracking using Gantt Chart 
 ![Gantt_Chart](Images/Gantt_Chart.png)
 <br/>
 
@@ -280,27 +282,28 @@ Using the DaemonSet controller, we’ll roll out a Fluentd logging agent Pod on 
 We create a Service Account called fluentd that the Fluentd Pods will use to access the Kubernetes API. We create it in the kube-logging Namespace and once again give it the label app: fluentd.
 
 ## 5.3 Screenshots of project (GUI) 
-Kubernetes Sign in page using token:
+### Kubernetes Sign in page using token:
 ![Kubernetes_Sign_in](Images/Kubernetes_Sign_in.jpg)
 <br/>
-Kubernetes Dashboard:
+
+### Kubernetes Dashboard:
 ![Kubernetes_Dashboard](Images/Kubernetes_Dashboard.jpg)
 <br/>
 
 
-Kibana Dashboard for Visualization of logs:
+### Kibana Dashboard for Visualization of logs:
 ![Kibana_Dashboard](Images/Kibana_Dashboard.jpg)
 <br/>
 
-ElasticSearch port forward:
+### ElasticSearch port forward:
 ![ElasticSearch_port](Images/ElasticSearch_port.jpg)
 <br/>
 
-Pods description in elasticsearch:
+### Pods description in elasticsearch:
 ![Pods_description_elasticsearch](Images/Pods_description_elasticsearch.jpg)
 <br/>
 
-Kibana Dashboard setup:
+### Kibana Dashboard setup:
 ![Kibana_Dashboard_setup](Images/Kibana_Dashboard_setup.jpg)
 <br/>
 
