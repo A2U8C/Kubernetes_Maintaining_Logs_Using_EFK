@@ -82,7 +82,8 @@ To monitor and manage services and infrastructure, Kubernetes’ logging mechani
 
 
 ## 1.5 Methodology
-
+![Methodology_1](Images/Methodology_1.png)
+<br/>
 Fig 1. Basic View of EFK Stack
 
 When running multiple services and applications on a Kubernetes cluster, a centralized, cluster-level logging stack can help you quickly sort through and analyze the heavy volume of log data produced by your Pods. An EFK stack (Elasticsearch, Fluentd, Kibana) is the most popular centralised logging solution. 
@@ -205,7 +206,8 @@ Kibana
 
 
 ## 3.5 System Block Diagram 
-
+![System_Block](Images/System_Block.png)
+<br/>
 
 Fig 2. Block Diagram of the EFK 
 
@@ -219,7 +221,8 @@ Kibana is an open source analytics and visualization platform designed to work w
 # Chapter 4: 
 ## Proposed Design 
 ## 4.1 System Design
-
+![System_Design](Images/System_Design.png)
+<br/>
 Fig 3.System Design
 
 A log is a file that is produced automatically every time certain events occur in a system. Log management is an umbrella term that describes all the activities and processes used to generate, collect, and centralize massive volumes of computer-generated log data.
@@ -231,23 +234,27 @@ Kibana: Now that we have our logs stored in Elasticsearch, the next step is to d
 
 ## 4.2 Detailed Design 
 Flowchart Diagram: 
-
+![Flowchart](Images/Flowchart.png)
+<br/>
 Fig 4. Flowchart of Maintaining Logs Using EFK  
 
 Use Case Diagram: 
-
+![Use_Case](Images/Use_Case.png)
+<br/>
 
 Fig 5. Use Case diagram of Maintaining Logs Using EFK 
 
 4.3 Project Scheduling and Tracking using Gantt Chart 
-
+![Gantt_Chart](Images/Gantt_Chart.png)
+<br/>
 
                                                       Fig 6. Gantt Chart 
 
 # CHAPTER 5 
 ## Implementation Details 
 ## 5.1 Methodology applied
-  
+![Methodology](Images/Methodology.png)
+<br/>
 Fig 7. The EFK Stack
 
 When running multiple services and applications on a Kubernetes cluster, a centralized, cluster-level logging stack can help you quickly sort through and analyze the heavy volume of log data produced by your Pods. An EFK stack (Elasticsearch, Fluentd, Kibana) is the most popular centralised logging solution. 
@@ -274,22 +281,28 @@ We create a Service Account called fluentd that the Fluentd Pods will use to acc
 
 ## 5.3 Screenshots of project (GUI) 
 Kubernetes Sign in page using token:
-
+![Kubernetes_Sign_in](Images/Kubernetes_Sign_in.jpg)
+<br/>
 Kubernetes Dashboard:
-
+![Kubernetes_Dashboard](Images/Kubernetes_Dashboard.jpg)
+<br/>
 
 
 Kibana Dashboard for Visualization of logs:
-
+![Kibana_Dashboard](Images/Kibana_Dashboard.jpg)
+<br/>
 
 ElasticSearch port forward:
-
+![ElasticSearch_port](Images/ElasticSearch_port.jpg)
+<br/>
 
 Pods description in elasticsearch:
-
+![Pods_description_elasticsearch](Images/Pods_description_elasticsearch.jpg)
+<br/>
 
 Kibana Dashboard setup:
-
+![Kibana_Dashboard_setup](Images/Kibana_Dashboard_setup.jpg)
+<br/>
 
 
 # Chapter 6: 
