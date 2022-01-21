@@ -304,6 +304,7 @@ We create a Service Account called fluentd that the Fluentd Pods will use to acc
 <br/>
 
 ### Kibana Dashboard setup:
+<br/>
 ![Kibana_Dashboard_setup](Images/Kibana_Dashboard_setup.jpg)
 <br/>
 
